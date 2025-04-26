@@ -1,14 +1,27 @@
 @use "colors" as colors;
 
 .wg-header {
-  position: relative;
-  justify-items: center;
+  position: sticky;
+  align-items: center;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: 5rem;
 
-  &__container{
-
+  &__container {
+    grid-column-start: 2;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   &__title {
     color: colors.$base-color;
+    justify-self: center;
+  }
+
+  &__user {
+    height: 2.5rem;
   }
 }
