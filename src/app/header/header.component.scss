@@ -1,4 +1,4 @@
-@import "styles/colors";
+@use "colors" as colors;
 
 .wg-header {
   position: relative;
@@ -9,6 +9,6 @@
   }
 
   &__title {
-    color: $base-color;
+    color: colors.$base-color;
   }
 }

@@ -32,9 +32,13 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "styles/colors.scss"
+              "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -92,8 +96,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "styles/colors.scss"
+              "src/styles.scss"
             ],
             "scripts": []
           }
