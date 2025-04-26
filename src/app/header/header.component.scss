@@ -1,0 +1,14 @@
+@import "styles/colors";
+
+.wg-header {
+  position: relative;
+  justify-items: center;
+
+  &__container{
+
+  }
+
+  &__title {
+    color: $base-color;
+  }
+}
